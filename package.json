@@ -1,0 +1,25 @@
+{
+	"name": "aurabyss",
+	"author": "Auracle",
+	"publisher": "Auracle",
+	"icon": "img/icon.png",
+	"displayName": "Aurabyss",
+	"description": "Deepest peaceful coding",
+	"repository": "https://github.com/AuracleTech/Abyss",
+	"version": "0.4.0",
+	"engines": {
+		"vscode": "^1.75.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Aurabyss",
+				"uiTheme": "vs-dark",
+				"path": "./themes/aurabyss-color-theme.json"
+			}
+		]
+	}
+}
